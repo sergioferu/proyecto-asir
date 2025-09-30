@@ -18,8 +18,7 @@ Según la gravedad, el técnico recibirá una **alerta proporcional al nivel de 
    - Si no tiene cuenta, puede **registrarse** desde el apartado correspondiente.
 
 2. **Registro de incidencias**  
-
-Una vez iniciado sesión, el usuario puede **crear una incidencia** completando un formulario con los siguientes datos:
+   Una vez iniciado sesión, el usuario puede **crear una incidencia** completando un formulario con los siguientes datos:
    - **Localización** de la incidencia  
    - **Fecha** de la incidencia  
    - **Descripción detallada** de los hechos  
