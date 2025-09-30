@@ -30,6 +30,8 @@ Según la gravedad, el técnico recibirá una **alerta proporcional al nivel de 
    - Al enviar el formulario, el técnico recibe una **alerta en su panel de control**.  
    - Según el nivel de importancia, la incidencia se mostrará en **posición más destacada** o más abajo en la lista, permitiendo priorizar la atención.
 
+El usuario podrá eliminar la incidencia si es que se ha solucionado, evitando así, el sobretrabajo del técnico.
+
 ---
 
 ## 💡 Beneficios
