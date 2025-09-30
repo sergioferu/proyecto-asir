@@ -10,16 +10,30 @@ El objetivo es ofrecer una plataforma donde los usuarios puedan **registrar inci
 - **Nivel 3** → Bajo  
 - **Nivel 4** → Informativo / seguimiento  
 
-Según la gravedad, el técnico recibirá una **alerta proporcional al nivel de la incidencia**, facilitando la priorización y resolución de problemas.
+Según la gravedad, el técnico recibirá una **alerta proporcional al nivel de la incidencia**, ayudando a priorizar y resolver problemas de manera eficiente.
 
 ## ⚙️ Funcionamiento
-El usuario inicia sesión en el portal inicial (si es que este usuario tiene una cuenta registrada en la base de datos. En su defecto, tendrá que registrarse previamente. Para ello, podrá hacerlo eligiendo el apartado de `registrarse`). Una vez iniciado sesión accederá a un formulario de registro de incidencia en el que tendrá que rellenar un formulario con los siguientes datos:
+1. **Inicio de sesión / registro**  
+   - El usuario accede al portal y, si ya tiene una cuenta, inicia sesión.  
+   - Si no tiene cuenta, puede **registrarse** desde el apartado correspondiente.
 
-- Localización de la incidencia
-- Fecha de la incidencia
-- Descripción de los hechos
-- Puesto de trabajo con mayor importancia afectado
-- Dispositivo afectado
-- Comentarios / Extras
+2. **Registro de incidencias**  
+   Una vez iniciado sesión, el usuario puede **crear una incidencia** completando un formulario con los siguientes datos:
+   - **Localización** de la incidencia  
+   - **Fecha** de la incidencia  
+   - **Descripción detallada** de los hechos  
+   - **Puesto de trabajo** con mayor importancia afectado  
+   - **Dispositivo** afectado  
+   - **Comentarios o información adicional**
 
-Una vez enviado el formulario, el técnico recibirá en el panel de control una alerta y según la importancia de la incidencia aparecerá más arriba o más abajo.
+3. **Notificación y gestión**  
+   - Al enviar el formulario, el técnico recibe una **alerta en su panel de control**.  
+   - Según el nivel de importancia, la incidencia se mostrará en **posición más destacada** o más abajo en la lista, permitiendo priorizar la atención.
+
+---
+
+## 💡 Beneficios
+- Priorización automática de incidencias según su gravedad ⚡  
+- Registro detallado que facilita el diagnóstico y resolución 🔧  
+- Comunicación clara entre usuarios y técnicos 📢  
+- Mejora la eficiencia en la gestión de incidencias y soporte técnico ⏱️
