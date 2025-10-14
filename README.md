@@ -19,7 +19,7 @@ Este proyecto consiste en el desarrollo de una **aplicación web de gestión de 
 
 3. **Notificación y gestión**  
    - Al enviar el formulario, el técnico recibe una **alerta en su panel de control**.  
-   - Según el nivel de importancia, la incidencia se mostrará en **posición más destacada** o más abajo en la lista, permitiendo priorizar la atención.
+   - Según el nivel de importancia, la incidencia se mostrará más arriba o más abajo en la lista, permitiendo priorizar la atención.
       - **Nivel 0** → Crítico (requiere atención inmediata)  
       - **Nivel 1** → Alto  
       - **Nivel 2** → Medio  
