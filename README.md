@@ -1,8 +1,7 @@
 # 🚀 Proyecto ASIR - **FixIt**
 
 ## 📌 Descripción
-Este proyecto consiste en el desarrollo de una **aplicación web de gestión de incidencias**.  
-El objetivo es ofrecer una plataforma donde los usuarios puedan **registrar incidencias detalladas** del problema.
+Este proyecto consiste en el desarrollo de una **aplicación web de gestión de incidencias**. El objetivo es ofrecer una plataforma donde los usuarios puedan **registrar incidencias detalladas** del problema.
 
 ## ⚙️ Funcionamiento
 1. **Inicio de sesión / registro**  
@@ -16,7 +15,7 @@ El objetivo es ofrecer una plataforma donde los usuarios puedan **registrar inci
    - **Descripción detallada** de los hechos  
    - **Puesto de trabajo** con mayor importancia afectado  
    - **Dispositivo** afectado  
-   - **Comentarios o información adicional**
+   - **Nivel de importancia** del hecho
 
 3. **Notificación y gestión**  
    - Al enviar el formulario, el técnico recibe una **alerta en su panel de control**.  
