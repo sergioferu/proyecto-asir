@@ -2,9 +2,7 @@
 
 ## 📌 Descripción
 Este proyecto consiste en el desarrollo de una **aplicación web de gestión de incidencias**.  
-El objetivo es ofrecer una plataforma donde los usuarios puedan **registrar incidencias detalladas**, asignándoles un nivel de importancia del **0 al 4**.
-
-Según la gravedad, el técnico recibirá una **alerta proporcional al nivel de la incidencia**, ayudando a priorizar y resolver problemas de manera eficiente.
+El objetivo es ofrecer una plataforma donde los usuarios puedan **registrar incidencias detalladas** del problema.
 
 ## ⚙️ Funcionamiento
 1. **Inicio de sesión / registro**  
