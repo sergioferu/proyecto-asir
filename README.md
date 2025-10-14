@@ -35,7 +35,7 @@ El usuario podrá **eliminar la incidencia** si es que se ha solucionado, evitan
 ---
 
 ## 💡 Beneficios
-- Priorización automática de incidencias según su gravedad ⚡  
-- Registro detallado que facilita el diagnóstico y resolución 🔧  
-- Comunicación clara entre usuarios y técnicos 📢  
-- Mejora la eficiencia en la gestión de incidencias y soporte técnico ⏱️
+- Priorización automática de incidencias según su gravedad
+- Registro detallado que facilita el diagnóstico y resolución
+- Comunicación clara entre usuarios y técnicos
+- Mejora la eficiencia en la gestión de incidencias y soporte técnico
