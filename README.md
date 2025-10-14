@@ -2,13 +2,7 @@
 
 ## 📌 Descripción
 Este proyecto consiste en el desarrollo de una **aplicación web de gestión de incidencias**.  
-El objetivo es ofrecer una plataforma donde los usuarios puedan **registrar incidencias detalladas**, asignándoles un nivel de importancia del **0 al 4**:
-
-- **Nivel 0** → Crítico (requiere atención inmediata)  
-- **Nivel 1** → Alto  
-- **Nivel 2** → Medio  
-- **Nivel 3** → Bajo  
-- **Nivel 4** → Informativo / seguimiento  
+El objetivo es ofrecer una plataforma donde los usuarios puedan **registrar incidencias detalladas**, asignándoles un nivel de importancia del **0 al 4**.
 
 Según la gravedad, el técnico recibirá una **alerta proporcional al nivel de la incidencia**, ayudando a priorizar y resolver problemas de manera eficiente.
 
@@ -29,6 +23,11 @@ Según la gravedad, el técnico recibirá una **alerta proporcional al nivel de 
 3. **Notificación y gestión**  
    - Al enviar el formulario, el técnico recibe una **alerta en su panel de control**.  
    - Según el nivel de importancia, la incidencia se mostrará en **posición más destacada** o más abajo en la lista, permitiendo priorizar la atención.
+      - **Nivel 0** → Crítico (requiere atención inmediata)  
+      - **Nivel 1** → Alto  
+      - **Nivel 2** → Medio  
+      - **Nivel 3** → Bajo  
+      - **Nivel 4** → Informativo / seguimiento  
 
 El usuario podrá **eliminar la incidencia** si es que se ha solucionado, evitando así, el sobretrabajo del técnico.
 
