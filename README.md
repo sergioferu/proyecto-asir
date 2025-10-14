@@ -10,11 +10,9 @@ Este proyecto consiste en el desarrollo de una **aplicación web de gestión de 
 
 2. **Registro de incidencias**  
    Una vez iniciado sesión, el usuario puede **crear una incidencia** completando un formulario con los siguientes datos:
-   - **Localización** de la incidencia  
-   - **Fecha** de la incidencia  
-   - **Descripción detallada** de los hechos  
-   - **Puesto de trabajo** con mayor importancia afectado  
-   - **Dispositivo** afectado  
+   - **Localización** de la incidencia
+   - **Dispositivo** afectado
+   - **Descripción detallada** de los hechos (el usuario va a poder añadir ficheros como logs o imágenes para apoyar la descripción de la incidencia)
    - **Nivel de importancia** del hecho
 
 3. **Notificación y gestión**  
