@@ -14,7 +14,7 @@ Este proyecto consiste en el desarrollo de una **aplicación web de gestión de 
    - **Dispositivo** afectado
    - **Descripción detallada** de los hechos
      
-     > el usuario va a poder añadir ficheros como logs o imágenes para apoyar la descripción de la incidencia
+     > El usuario va a poder añadir ficheros como logs o imágenes para apoyar la descripción de la incidencia
    - **Nivel de importancia** del hecho
 
 3. **Notificación y gestión**  
