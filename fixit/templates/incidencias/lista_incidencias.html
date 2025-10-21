@@ -1,0 +1,10 @@
+<h1>Listado de Incidencias</h1>
+<ul>
+  {% for incidencia in lista_incidencias %}
+    <li>
+      <a href="{% url 'detalle-incidencia' incidencia.pk %}">
+        {{ incidencia.titulo }} ({{ incidencia.get_nivel_display }})
+      </a>
+    </li>
+  {% endfor %}
+</ul>
