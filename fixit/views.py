@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
 from .models import PerfilUsuario
 from .forms import RegistroUsuarioForm
-from .utils import generar_username  # Para la función de generación de username
+from .utils import generar_username
 from datetime import date
 
 def registro_usuario(request):
