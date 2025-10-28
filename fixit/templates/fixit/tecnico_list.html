@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Técnicos</h2>
+    <table border="1">
+        <tr>
+            <th>Usuario</th>
+            <th>Nombre Completo</th>
+            <th>Especialidad</th>
+            <th>Incidencias Asignadas</th>
+        </tr>
+        {% for tecnico in object_list %}
+            <tr>
+                <td>{{ tecnico.usuario.username }}</td>
+                <td>{{ tecnico.usuario.get_full_name }}</td>
+                <td>{{ tecnico.especialidad }}</td>
+                <td>{{ tecnico.incidencias_asignadas.count }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

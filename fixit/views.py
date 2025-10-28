@@ -1,35 +1,15 @@
-from django.shortcuts import render, redirect
-from django.contrib.auth.models import User
-from .models import PerfilUsuario
-from .forms import RegistroUsuarioForm
-from .utils import generar_username
-from datetime import date
+from django.views.generic import ListView
+from fixit.models import Incidencia, PerfilUsuario, Tecnico
 
-def registro_usuario(request):
-    if request.method == "POST":
-        form = RegistroUsuarioForm(request.POST)
-        if form.is_valid():
-            first_name = form.cleaned_data["first_name"]
-            last_name = form.cleaned_data["last_name"]
 
-            username = generar_username(first_name, last_name)
+class Incidencias_View(ListView):
+    model = Incidencia
+    context_object_name = "Vista del contenido de la tabla Incidencias"
 
-            user = User.objects.create_user(
-                username=username,
-                password=form.cleaned_data["password1"],
-                email=form.cleaned_data["email"],
-                first_name=first_name,
-                last_name=last_name
-            )
-            PerfilUsuario.objects.create(
-                usuario=user,
-                fecha_nacimiento=form.cleaned_data["fecha_nacimiento"],
-                curso=form.cleaned_data["curso"]
-            )
-            return redirect("login")
-    else:
-        form = RegistroUsuarioForm()
-    return render(request, "registro.html", {"form": form})
+class PerfilUsuario_View(ListView):
+    model = PerfilUsuario
+    context_object_name = "Vista del contenido de la tabla PerfilUsuario"
 
-def home(request):
-    return render(request, 'home.html')
+class Tecnico_View(ListView):
+    model = Tecnico
+    context_object_name = "Vista del contenido de la tabla Tecnico"

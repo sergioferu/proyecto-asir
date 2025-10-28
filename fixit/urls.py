@@ -1,13 +1,8 @@
-from django.contrib import admin
 from django.urls import path
-from django.contrib.auth import views as auth_views
-from . import views
+from fixit.views import Incidencias_View, PerfilUsuario_View, Tecnico_View
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-
-    path('', views.home, name='home'),
-    path('registro/', views.registro_usuario, name='registro'),
-    path('login/', auth_views.LoginView.as_view(template_name='login.html'), name='login'),
-    path('logout/', auth_views.LogoutView.as_view(next_page='home'), name='logout'),
+    path("incidencias/", Incidencias_View.as_view()),
+    path("perfil_usuario/", PerfilUsuario_View.as_view()),
+    path("perfil_tecnico/", Tecnico_View.as_view()),
 ]
