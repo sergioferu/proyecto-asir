@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Incidencias</h2>
+    <table border="1">
+        <tr>
+            <th>Estado</th>
+            <th>Nivel</th>
+            <th>Fecha</th>
+            <th>Usuario</th>
+            <th>Descripción</th>
+            <th>Dispositivo</th>
+            <th colspan="2">Menu</th>
+        </tr>
+        {% for incidencia in object_list %}
+            <tr>
+                <td>{{ incidencia.estado }}</td>
+                <td>{{ incidencia.get_nivel_display }}</td>
+                <td>{{ incidencia.fecha }}</td>
+                <td>{{ incidencia.usuario.username }}</td>
+                <td>{{ incidencia.descripcion }}</td>
+                <td>{{ incidencia.dispositivo }}</td>
+                <td><a href="{% url 'incidencia_update' incidencia.pk %}">Editar</a></td>
+                <td><a href="{% url 'incidencia_delete' incidencia.pk %}">Borrar</a></td>
+        {% empty %}
+                <td colspan=100%>No hay incidencias.</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <p><a href="{% url 'incidencia_create' %}">Crear incidencia</a></p>
+{% endblock %}

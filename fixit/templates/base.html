@@ -65,13 +65,32 @@
 
     h2 {
         margin-block-end: 10px;
+        background: linear-gradient(135deg, #00d4ff 0%, #0095ff 50%, #ff4757 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+        text-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
     }
 
-    p {
+    p, ul {
         font-size: 1.2em;
         color: #b8b8b8;
         font-style: italic;
         letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    ul li {
+        margin-bottom: 8px;
+        margin-left: 25px;
+    }
+
+    a {
+        color: #00d4ff;
+        text-decoration: none;
+        transition: color 0.3s ease;
     }
 
     .contenido {
@@ -133,7 +152,7 @@
 </style>
 <body>
     <header>
-        <h1>FixIt</h1>
+        <h1><a href="{% url 'home' %}">FixIt</a></h1>
         <p>Tu aplicación web de gestión de incidencias</p>
     </header>
     
