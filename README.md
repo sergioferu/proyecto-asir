@@ -52,7 +52,7 @@ Dentro del repositorio encontramos el directorio `bin/activate`. Este directorio
 source bin/activate
 ```
 
-Importante: Si es la primera vez que configuras el proyecto o si el entorno virtual no tiene las dependencias instaladas, debes instalar las librerías del archivo `requirements.txt`:
+**Importante:** Si es la primera vez que configuras el proyecto o si el entorno virtual no tiene las dependencias instaladas, debes instalar las librerías del archivo `requirements.txt`:
 ```
 pip install -r requirements.txt
 ```
