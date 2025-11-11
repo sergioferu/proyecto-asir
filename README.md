@@ -47,16 +47,21 @@ cd proyecto-asir
 ```
 
 Dentro del repositorio encontramos el directorio `bin/activate`. Este directorio permite lanzar el entorno virtual en el que tenemos las dependecias descargadas necesarias para el proyecto.
-> Para acceder al entorno virtual, previamente debemos poner en la consola `bin/activate`
+> Para acceder al entorno virtual, previamente debemos ejecutar desde la consola:
+```
+source bin/activate
+```
 
 Importante: Si es la primera vez que configuras el proyecto o si el entorno virtual no tiene las dependencias instaladas, debes instalar las librerías del archivo `requirements.txt`:
 ```
 pip install -r requirements.txt
 ```
-> Para verificar que las dependencias se han instalado correctamente, ejecutamos el siguiente comando: `pip list`
-
-Una vez dentro del entorno virtual y con las dependencias instaladas, lanzamos los siguientes comandos:
+> Si queremos verificar que las dependencias se han instalado correctamente, ejecutamos:
 ```
-cd proyecto-asir
+pip list
+```
+
+Una vez dentro del entorno virtual y con las dependencias instaladas, lanzamos el siguiente comando:
+```
 python3 manage.py runserver
 ```
