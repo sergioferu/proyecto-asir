@@ -1,4 +1,4 @@
-# 🚀 Proyecto ASIR - **FixIt**
+# 💻 Proyecto ASIR - **FixIt**
 
 ## 📌 Descripción
 Este proyecto consiste en el desarrollo de una **aplicación web de gestión de incidencias**. El objetivo es ofrecer una plataforma donde los usuarios puedan **registrar incidencias detalladas** del problema.
@@ -36,3 +36,27 @@ El usuario podrá **eliminar la incidencia** si es que se ha solucionado, evitan
 - Registro detallado que facilita el diagnóstico y resolución
 - Comunicación clara entre usuarios y técnicos
 - Mejora la eficiencia en la gestión de incidencias y soporte técnico
+
+---
+
+## 🚀 Despliegue
+Para lanzar el proyecto lo primero que se debe hacer es descargar el repositorio:
+```
+git clone https://github.com/sergioferu/proyecto-asir
+cd proyecto-asir
+```
+
+Dentro del repositorio encontramos el directorio `bin/activate`. Este directorio permite lanzar el entorno virtual en el que tenemos las dependecias descargadas necesarias para el proyecto.
+> Para acceder al entorno virtual, previamente debemos poner en la consola `bin/activate`
+
+Importante: Si es la primera vez que configuras el proyecto o si el entorno virtual no tiene las dependencias instaladas, debes instalar las librerías del archivo `requirements.txt`:
+```
+pip install -r requirements.txt
+```
+> Para verificar que las dependencias se han instalado correctamente, ejecutamos el siguiente comando: `pip list`
+
+Una vez dentro del entorno virtual y con las dependencias instaladas, lanzamos los siguientes comandos:
+```
+cd proyecto-asir
+python3 manage.py runserver
+```
