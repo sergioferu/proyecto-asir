@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>¡Bienvenido al software FixIt!</h2>
+<p>Selecciona una de las siguientes opciones para moverte por la aplicación.</p>
+<ul>
+    <li><a href="{% url 'incidencias_list' %}">Incidencias</a></li>
+    <li><a href="{% url 'perfilusuario_list' %}">Perfil de usuario</a></li>
+    <li><a href="{% url 'tecnico_list' %}">Perfil de técnico</a></li>
+</ul>
+{% endblock %}
