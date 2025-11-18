@@ -1,9 +1,0 @@
-{% extends "base.html" %}
-{% block content %}
-  <h1>Eliminar Tecnico</h1>
-  <p>¿Seguro que quieres eliminar "{{ object }}"?</p>
-  <form method="post">{% csrf_token %}
-    <button type="submit">Confirmar</button>
-    <a href="{% url 'tecnico_list' %}">Cancelar</a>
-  </form>
-{% endblock %}
