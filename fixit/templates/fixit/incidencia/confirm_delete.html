@@ -1,9 +1,0 @@
-{% extends "base.html" %}
-{% block content %}
-  <h2>Eliminar Incidencia</h2>
-  <p>¿Seguro que quieres eliminar "{{ object }}"?</p>
-  <form method="post">{% csrf_token %}
-    <button type="submit">Confirmar</button>
-    <a href="{% url 'incidencias_list' %}">Cancelar</a>
-  </form>
-{% endblock %}
